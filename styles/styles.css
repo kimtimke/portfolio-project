@@ -72,6 +72,13 @@ p {
 
 .about-hero-content {
   margin: 30px;
+  padding-right: 30px;
+}
+
+.about-picture {
+  border-radius: 6px;
+  width: 400px;
+  padding-left: 30px;
 }
 
 .btn-primary {
