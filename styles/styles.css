@@ -12,7 +12,6 @@ body {
 h1,
 h2,
 h3,
-h4,
 h5,
 h6 {
   color: black;
@@ -115,6 +114,19 @@ p {
 
 .project-description {
   padding: 120px 60px;
+}
+
+.nav-item {
+  transition: all 100ms ease-in-out;
+}
+
+.nav-link:hover,
+.nav-item .active:hover {
+  color: var(--primary-color);
+}
+
+.navbar-brand {
+  margin-right: 700px;
 }
 
 @media (max-width: 900px) {
